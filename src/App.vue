@@ -15,11 +15,11 @@ export default {
     padding: 0;
   }
 
-  a{
-    text-decoration: none;
+   h5, p{
+    margin: 0!important;
   }
 
-  h5, p{
-    margin: 0!important;
+  a{
+    text-decoration: 0;
   }
 </style>

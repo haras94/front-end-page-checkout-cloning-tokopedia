@@ -34,7 +34,7 @@ import Minis from '../components/small/mini-sidebar.vue';
 import Card from '../components/small/card.vue';
 
 export default {
-  name: 'checkout',
+  name: 'Cart',
   components: {
     Footer,
     Purchase,
@@ -46,15 +46,26 @@ export default {
 </script>
 
 <style scoped>
-
     .text-conten-card{
         position: relative;
-        padding-left: 55px;
+        padding-left: 80px;
+        color: rgb(82, 86, 94);
+        font-weight: 800;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        left: 50px;
+        width: 500px;
     }
 
     .text-conten-see{
         position: relative;
-        left: 950px;
+        left: 850px;
+        color: rgb(3, 172, 14);
+        text-decoration: none;
+        padding: 0px;
+        font-weight: 800;
+        width: 300px;
+        cursor: pointer;
     }
     .container{
         display: flex;

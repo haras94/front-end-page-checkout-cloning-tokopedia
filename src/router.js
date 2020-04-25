@@ -1,15 +1,15 @@
 import vue from 'vue';
 import VueRouter from 'vue-router';
 
-import checkout from './views/checkout.vue';
+import Cart from './views/Cart.vue';
 
 vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    name: 'checkout',
-    component: checkout,
+    name: 'Cart',
+    component: Cart,
   },
 ];
 
